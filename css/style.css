@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin:0;
+    padding: 0;
+}
+
+.header{
+    position: relative;
+    background: url('/images/main_bg.png') center;
+    height: 800px;
+    width: 100%;
+    text-align: center;
+}
+
+.owl-logo{
+    width:83px;
+    height:71px;
+
+}
+.header h4{
+    font-size: 15px;
+    color:white;
+    margin-top: 1px;
+    margin-bottom: 50px;
+}
+
+.header h2{
+    font-size:41px;
+    color:#F9BF3B;
+    /* margin-bottom: 0; */
+    margin:10px;
+}
+.header h1{
+    font-size:80px;
+    color:white;
+    margin: 0;
+}
+
+hr{
+    position: absolute;
+    width:292px;
+    background-color: white;
+    top: 237px;
+}
+hr.left{
+    left:244px;
+}
+hr.right{
+    right:244px;
+}
+.header .info-text{
+    
+    width: 1013px;
+    color:white;
+    margin:35px auto;
+    text-align: left;
+    font-size:21px;
+    font-weight: 300;
+}
+
+.to-intensive{
+    width:313px;
+    height:72px;
+    font-size: 21px;
+    font-weight: 500;
+    background: linear-gradient(0deg, #2798B9 0%, #3AB6DA 100%);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+    color:white;
+    border:0;
+    margin-top:67px;
+}
+
+.header h5{
+    font-size:17px;
+    font-weight: 100;
+    color:white;
+    margin-top:80px;
+    margin-bottom: 0;
+}
+
+.header .down{
+    width:30px;
+    height: 19px;
+    margin-top:23px;
+}
+.our-offerings{
+    position: relative;
+    background:#EFEFEF;
+    margin-top:50px;
+    text-align:center;
+    padding:24px 0; 
+}
+
+.our-offerings h3{
+    font-size:30px;
+    font-weight: 400;
+}
+
+.orange-line{
+    position: absolute;
+    background-color:#F9BF3B; 
+
+    width:217px;
+    height: 4px;
+    top:92px;
+    left:635px;
+    margin:20px;
+}
+
+.our-offerings h4{
+    margin-top:50px;
+    font-size:23;
+    font-weight: 400;
+}
+
+.offering-items{
+    width:1400px;
+    margin:40px auto;
+}
+.offering-items div{
+    display: inline-block;
+    vertical-align: top;
+    width:342px;
+    height: 330px;
+    margin-left:40px;
+}
+.offering-items div img{
+    width:100%;
+}
+.offering-items div p{
+    font-size:15px;
+    font-weight: 300;
+}
+.optimization-info{
+    background: url('/images/woman_bg.png') no-repeat;
+    height: 502px;
+    width:1320px;
+    margin: 120px auto;
+    border:1px solid white;
+}
+
+.optim-txt{
+    width: 722px;
+    margin-top:48px;
+    margin-left: 600px;
+    text-align: left;
+    
+}
+.optim-txt h1{
+    font-size:30px;
+    font-weight: 900;
+    color: #299CBD;
+}
+.optim-txt p{
+    font-size:17px;
+    font-weight: 300;
+    line-height: 27px;
+    color: #4A4A4A;
+}
+.optim-txt p span{
+    font-weight: 700;
+}
+
+.finish{
+    position: relative;
+    text-align:center;
+    height: 447px;
+    width: 100%;
+    background: url('/images/second_bg.png');
+    padding-top: 40px;
+}
+.finish h2{
+    color: #EFEFEF;
+    font-size:30px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.skills{
+ margin-top:100px;
+}
+
+.skills-items{
+    display: inline-block;
+    vertical-align: top;
+    width:200px;
+    height: 200px;
+    margin: 20px;
+}
+
+.skills-icons{
+    width:120px;
+    height: 120px;
+    background: #B4E2FF;
+    padding: 32px;
+    border-radius: 50%;
+    margin:0 auto;
+}
+
+.skills-items .skills-icons img{
+    width:64px;
+    height: 50px;
+}
+
+.skills-items p {
+     color:#EFEFEF;
+     font-size: 17px;
+     font-weight: 300;
+
+}
+
+
+.gift-block{
+    background:#EFEFEF;
+    height: 631px;
+    width:100%;
+    text-align:center;
+    margin-top:10px;
+    padding-top:80px;
+}
+
+.gift-block img{
+    height: 174px;
+    width:150px;
+    margin:0 auto;
+}
+.gift-block .gift-txt{
+    margin:0 auto;
+    width: 1146px;
+    font-size:30px;
+    font-weight: 300;
+}
+.gift-block .to-intensive{
+    margin-top:40px;
+}
+
+.vebinar{
+    height: 500px;
+    padding-top:80px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.vebinar img{
+    width:342px;
+    height:201px;
+}
+.vebinar h2{
+    font-size:30px;
+    font-weight: 300;
+}
+
+.vebinar h1{
+    color:#299CBD;
+    font-size:36px;
+    font-weight: 900;
+}
+.vebinar h4{
+    font-size:23px;
+    font-weight: 400;
+    color:#4A4A4A;
+}
+
+.footer{
+    background-color: #1A1A1A;
+    height:170px;
+    width:100%;
+    padding:25px;
+}
+
+.footer-txt{
+    width:403px;
+    height: 55px;
+    margin:30px auto;
+    text-align: center;
+    
+}
+.footer-txt p{
+    color: #888888;
+    font-size:15px;
+    font-weight: 300;
+    line-height: 24px;
+}
+.footer-txt p a{
+    color:#888888;
+    text-decoration-color: #888888;
+}
